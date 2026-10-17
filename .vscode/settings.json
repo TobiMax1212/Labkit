@@ -1,0 +1,13 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "python.testing.pytestEnabled": true,
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "files.associations": { "*.tcss": "css" }
+}
