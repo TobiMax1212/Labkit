@@ -21,7 +21,7 @@ Repository = "https://github.com/TobiMax1212/Labkit"
 Issues = "https://github.com/TobiMax1212/Labkit/issues"
 
 [project.scripts]
-labkit = "labkit:main"
+labkit = "labkit.cli.main:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
